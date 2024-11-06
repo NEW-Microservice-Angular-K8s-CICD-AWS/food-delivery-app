@@ -1,0 +1,151 @@
+/* styles.css */
+
+/* Container for the header content */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Style for the header */
+.header {
+    background-color: #6197ed;
+    /* Example background color */
+    color: #fff;
+    /* Example text color */
+    padding: 10px 0;
+}
+
+/* Navigation styling */
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li {
+    margin-right: 20px;
+}
+
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Optionally, you might want to add styles for links on hover */
+.header-nav a:hover {
+    color: #ddd;
+    /* Change color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-nav li {
+    margin-right: 20px;
+}
+
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.user-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+}
+
+.username {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+}
